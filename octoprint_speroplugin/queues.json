@@ -1,0 +1,96 @@
+{
+    "_default": {
+        "1": {
+            "items": [
+                {
+                    "index": 0,
+                    "name": "1dk_.gcode",
+                    "path": "1dk_.gcode",
+                    "sd": "false",
+                    "state": "Await",
+                    "timeLeft": 60.515274061985856
+                },
+                {
+                    "index": 0,
+                    "name": "2dk_.gcode",
+                    "path": "2dk_.gcode",
+                    "sd": "false",
+                    "state": "Await",
+                    "timeLeft": 31.39699596306056
+                },
+                {
+                    "index": 1,
+                    "name": "1dk_.gcode",
+                    "path": "1dk_.gcode",
+                    "sd": "false",
+                    "state": "Await",
+                    "timeLeft": 60.515274061985856
+                },
+                {
+                    "index": 2,
+                    "name": "1dk_.gcode",
+                    "path": "1dk_.gcode",
+                    "sd": "false",
+                    "state": "Await",
+                    "timeLeft": 60.515274061985856
+                },
+                {
+                    "index": 3,
+                    "name": "2dk_.gcode",
+                    "path": "2dk_.gcode",
+                    "sd": "false",
+                    "state": "Await",
+                    "timeLeft": 31.39699596306056
+                }
+            ],
+            "id": "c6d81dee-6d0c-4a32-87eb-73fe8dd7b7eb",
+            "updateTime": "2022-10-18 07:01:01.443294",
+            "createTime": "2022-10-18 07:01:01.447036",
+            "name": "aaa",
+            "index": 0,
+            "last": "last_queue"
+        },
+        "2": {
+            "items": [
+                {
+                    "index": 0,
+                    "name": "2dk_.gcode",
+                    "path": "2dk_.gcode",
+                    "sd": "false",
+                    "state": "Await",
+                    "timeLeft": 31.39699596306056
+                },
+                {
+                    "index": 1,
+                    "name": "2dk_.gcode",
+                    "path": "2dk_.gcode",
+                    "sd": "false",
+                    "state": "Await",
+                    "timeLeft": 31.39699596306056
+                },
+                {
+                    "index": 2,
+                    "name": "2dk_.gcode",
+                    "path": "2dk_.gcode",
+                    "sd": "false",
+                    "state": "Await",
+                    "timeLeft": 31.39699596306056
+                },
+                {
+                    "index": 3,
+                    "name": "2dk_.gcode",
+                    "path": "2dk_.gcode",
+                    "sd": "false",
+                    "state": "Await",
+                    "timeLeft": 31.39699596306056
+                }
+            ],
+            "id": "724ddec7-55ab-46d3-8e88-66443665718d",
+            "updateTime": "2022-10-18 07:01:12.227567",
+            "createTime": "2022-10-18 07:01:12.227642",
+            "name": "bbbb",
+            "index": 1,
+            "last": "last_queue"
+        }
+    }
+}

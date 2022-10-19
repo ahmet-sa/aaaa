@@ -1,0 +1,120 @@
+
+<div class="form-title">
+    <h4>      SPERO SHIELD SETTINGS</h4>
+      
+</div>   
+
+<form class="form-horizontal">
+    <div class="input-control">
+        <label class="control-label">{{ _('Motor Forward Pin : ') }}</label>
+        <div class="controls">
+            <input type="number" class="input-block-level" style="width:7em" data-bind="value: settings.plugins.speroplugin.motorPin1">
+        </div>
+    </div>
+    <div class="input-control">
+        <label class="control-label">{{ _('Motor Backward: Pin: ') }}</label>
+        <div class="controls">
+            <input type="number" class="input-block-level" style="width:7em" data-bind="value: settings.plugins.speroplugin.motorPin2">
+        </div>
+    </div>
+    <div class="input-control">
+        <label class="control-label">{{ _('Switch Front Pin: ') }}</label>
+        <div class="controls">
+            <input type="number" class="input-block-level" style="width:7em" data-bind="value: settings.plugins.speroplugin.switchFront">
+        </div>
+    </div>
+    <div class="input-control">
+        <label class="control-label">{{ _('Switch Back Pin: ') }}</label>
+        <div class="controls">
+            <input type="number" class="input-block-level" style="width:7em" data-bind="value: settings.plugins.speroplugin.switchBack">
+        </div>
+    </div>
+    <div class="input-control">
+        <label class="control-label">{{ _('Forward Button Pin: ') }}</label>
+        <div class="controls">
+            <input type="number" class="input-block-level" style="width:7em" data-bind="value: settings.plugins.speroplugin.buttonForward">
+        </div>
+    </div>
+    <div class="input-control">
+        <label class="control-label">{{ _('Backward Button Pin: ') }}</label>
+        <div class="controls">
+            <input type="number" class="input-block-level" style="width:7em" data-bind="value: settings.plugins.speroplugin.buttonBackword">
+        </div>
+    </div>
+    <div class="input-control">
+        <label class="control-label">{{ _('Ejecting Button Pin: ') }}</label>
+        <div class="controls">
+            <input type="number" class="input-block-level" style="width:7em" data-bind="value: settings.plugins.speroplugin.buttonSequence">
+        </div>
+    </div>
+
+</form>
+
+<h4 class="form-title">
+                                TABLE SETTINGS
+</h4>
+
+
+<form class="form-horizontal">
+    <div class="input-control">
+        <label class="control-label">{{ _('Table Temperature: ') }}</label>
+        <div class="controls">
+            <input type="number" class="input-block-level " style="width:7em" data-bind="value: settings.plugins.speroplugin.targetBedTemp">
+        </div>
+    </div>
+ 
+    <div class="input-control">
+        <label class="control-label">{{ _('Seconds For Eject Fail: ') }}</label>
+        <div class="controls">
+            <input type="number" class="input-block-level" style="width:7em" data-bind="value: settings.plugins.speroplugin.delaySeconds,">
+        </div>
+    </div> 
+
+
+ 
+</form>
+
+   <div class="warningText">
+        
+           please check the pin numbers if any of the numbers are the same you can't save
+
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+   
+
+   
+
+
+
+
+
+
+
+
+
+
+
+
+
